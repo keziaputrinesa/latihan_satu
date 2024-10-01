@@ -8,8 +8,8 @@
             <tr>
                 <th scope="col">NO</th>
                 <th scope="col">ID BUKU</th>
+                <th scope="col">NO BUKU</th>
                 <th scope="col">JUDUL BUKU</th>
-                <th scope="col">PENGARANG</th>
                 <th scope="col">PENERBIT</th>
                 <th scope="col">TAHUN</th>
                 <th scope="col">KELOLA</th>
@@ -17,12 +17,12 @@
         </thead>
         <tbody>
             <tr>
-                <th scope="row">1</th>
+                <th scope="row">1</th>;
                 <td>B0001</td>
-                <td>MTK</td>
-                <td>ARYO</td>
-                <td>UGM</td>
-                <td>2015</td>
+                <td>897635</td>
+                <td>BERDAMAI</td>
+                <td>PSIKOLOGI CORNER</td>
+                <td>2020</td>
                 <td><a href="" class="btn btn-primary">Edit</a>
                     <a href="" class="btn btn-danger">Delete</a>
                 </td>
@@ -30,10 +30,10 @@
             <tr>
                 <th scope="row">2</th>
                 <td>B0002</td>
-                <td>JEPANG</td>
-                <td>REHAN</td>
-                <td>IT</td>
-                <td>2017</td>
+                <td>87635</td>
+                <td>SI ANAK PINTAR</td>
+                <td>MUTIAHIA SAYEKTI</td>
+                <td>2018</td>
                 <td><a href="" class="btn btn-primary">Edit</a>
                     <a href="" class="btn btn-danger">Delete</a>
                 </td>
@@ -41,9 +41,9 @@
             <tr>
                 <th scope="row">3</th>
                 <td>B0003</td>
-                <td>INGGRIS</td>
-                <td>GANI</td>
-                <td>UPI</td>
+                <td>989653</td>
+                <td>GADIS DARI GALAKSI</td>
+                <td>POOPI</td>
                 <td>2018</td>
                 <td><a href="" class="btn btn-primary">Edit</a>
                     <a href="" class="btn btn-danger">Delete</a>
@@ -53,24 +53,14 @@
                 <th scope="row">4</th>
                 <td>B0004</td>
                 <td>INDO</td>
-                <td>RIZKI</td>
-                <td>UNESA</td>
-                <td>2015</td>
+                <td>MAJAPAHIT</td>
+                <td>DHEWIBERTA</td>
+                <td>2018</td>
                 <td><a href="" class="btn btn-primary">Edit</a>
                     <a href="" class="btn btn-danger">Delete</a>
                 </td>
             </tr>
-            <tr>
-                <th scope="row">5</th>
-                <td>B0005</td>
-                <td>WEB</td>
-                <td>YUDHA</td>
-                <td>UM</td>
-                <td>2020</td>
-                <td><a href="" class="btn btn-primary">Edit</a>
-                    <a href="" class="btn btn-danger">Delete</a>
-                </td>
-            </tr>
+            
         </tbody>
     </table>
  </div>

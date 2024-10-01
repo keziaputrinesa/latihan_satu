@@ -46,16 +46,12 @@ Route::get('/isi-anggota', function () {
     return view('isi-anggota');
 });
 
-Route::get('/data-buku', function () {
-    return view('data-buku');
-});
-
-Route::get('/login.', function () {
+Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/kartu-anggota', function () {
-    return view('kartu-anggota');
+Route::get('/kartu_anggota', function () {
+    return view('kartu_anggota');
 });
 
 Route::get('/kelola-buku', function () {
@@ -65,3 +61,40 @@ Route::get('/kelola-buku', function () {
 Route::get('/kelola-data-denda', function () {
     return view('kelola-data-denda');
 });
+
+Route::get('/selmat_datang', function () {
+    return view('selmat_datang');
+});
+
+Route::get('/jenis_buku', function () {
+    return view('jenis_buku');
+});
+
+Route::get('/layout_buku', function () {
+    return view('layout_buku');
+});
+
+Route::get('/fiksi', function () {
+    return view('fiksi');
+});
+
+Route::get('/non-fiksi', function () {
+    return view('non-fiksi');
+});
+
+Route::get('/sejarah', function () {
+    return view('sejarah');
+});
+
+Route::get('/komik', function () {
+    return view('komik');
+});
+
+Route::get('/tambah_data', function () {
+    return view('tambah_data');
+});
+
+Route::get('/login_buku', function () {
+    return view('login_buku');
+});
+
